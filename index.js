@@ -34,4 +34,4 @@ window.addEventListener("load", () => {
   }
   console.log(newPassword)
   })
-});
+})
