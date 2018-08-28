@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   if (passwordLength <4) {
     passwordLength = 4
   }
-  let newPassword += ""
+  let newPassword = ""
   for (let i = 0; i < passwordLength; i++) {
     
     lowerCaseCharacters[
