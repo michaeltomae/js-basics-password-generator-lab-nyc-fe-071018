@@ -1,8 +1,10 @@
 window.addEventListener("load", () => {
   //start your code here
+  let outputResult = document.querySelector("output")
+  
   document.addEventListener('submit', (event) => {
     event.preventDefault()
-    const input = document.getElementById('passwordLength')
+    let input = document.getElementById('passwordLength')
     let passwordLength = input.value
     console.log(passwordLength)
     "abcdefghijklmnopqrstuvwxyz".split()
