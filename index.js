@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   let lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz".split('')
   let upperCaseCharcters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
   let numberCharacters = "0123456789".split('')
-  let specialCharacters = "".split('')
+  let specialCharacters = " !#$%&()*+,-./:;<=>?@[\]^_{|}~".split('')
   
   document.addEventListener('submit', (event) => {
     event.preventDefault()
