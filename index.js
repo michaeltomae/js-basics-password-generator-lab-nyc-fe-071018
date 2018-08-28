@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
     passwordLength = 4
   }
   let newPassword = ""
-  for (let i = 0; i < passwordLength; i++;){
+  for (let i = 0; i < passwordLength; i++;) {
   }   
   })
 });
