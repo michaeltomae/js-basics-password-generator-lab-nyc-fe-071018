@@ -3,7 +3,8 @@ window.addEventListener("load", () => {
   let outputResult = document.querySelector("output")
   let lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz".split('')
   let upperCaseCharcters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
-  
+  let numberCharacters = "0123456789".split('')
+  let specialCharacters = "".split('')
   
   document.addEventListener('submit', (event) => {
     event.preventDefault()
