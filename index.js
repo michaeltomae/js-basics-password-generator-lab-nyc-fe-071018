@@ -29,7 +29,7 @@ window.addEventListener("load", () => {
       ]
 
     newPassword += specialCharacters[
-      Math.floor(Math.random() * specialCaseCharacters.length)
+      Math.floor(Math.random() * specialCharacters.length)
       ]
   }
   console.log(newPassword)
