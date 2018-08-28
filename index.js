@@ -9,9 +9,9 @@ window.addEventListener("load", () => {
   document.addEventListener('submit', (event) => {
     event.preventDefault()
    
-    let input = document.getElementById('passwordLength')
-    let passwordLength = input.value
-    console.log(specialCharacters)
+  let input = document.getElementById('passwordLength')
+  let passwordLength = input.value
+  let newPassword = ""
    
   })
 });
