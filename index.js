@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
    
     let input = document.getElementById('passwordLength')
     let passwordLength = input.value
-    console.log(specialCharcters)
+    console.log(specialCharacters)
    
   })
 });
