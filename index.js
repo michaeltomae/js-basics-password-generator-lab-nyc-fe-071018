@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   //start your code here
   let outputResult = document.querySelector("output")
   let lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz".split('')
-  let upperCaseCharcters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
+  let upperCaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
   let numberCharacters = "0123456789".split('')
   let specialCharacters = " !#$%&()*+,-./:;<=>?@[\]^_{|}~".split('')
   
